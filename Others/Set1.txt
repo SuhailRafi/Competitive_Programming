@@ -1,0 +1,36 @@
+ 
+
+Kindred
+
+Kefa and Rifa are siblings who love to play games. Often they play traditional games such as finding prime numbers in a range or calculate distance between two geographic locations. One day one of their cousin Emran comes to visit their house. At that time, Kefa and Rifa were playing one of the famous games "THE LAND OF WAR". After watching several turns, Emran figured out it is a pretty boring game. So Emran came up with a new game called "FIND THE SUM". There will be N round of games where Kefa and Rifa will answer accordingly where Kefa will take the odd round and Rifa will take the even round. This means if N=4, Kefa will take the first round, Rifa will take the second, Kefa will take third and Rifa will take the fourth round. So, the turn is finalized. Now about the game, Both of them have to find out the total sum up to range T on there each round. which means if T=4, the answer will be 1 + 2 + 3 + 4 =10.
+
+After playing few rounds Emran figured out the game is pretty easy for them. So he brings out an extra variation. Now the variant is, They have to calculate the total sum up to range T but they have to subtract the numbers which are the power of 2.
+
+Now you have to write a program in order to find out the answer of Kefa and Rifa's turn.
+
+Input
+
+The first line of the input contains a single integer N (1 ≤ t ≤ 100) — the total number of rounds to be played.
+
+Each of next N lines contains a single integer T (1 ≤ T ≤ 109). T is the range of each round.
+
+Output
+
+Print the requested answer for each Round.
+
+Examples
+
+Input
+
+2
+5
+901
+Output
+
+1
+
+404305
+
+Explanation
+
+For first test case the simulation is: -1 - 2 + 3 - 4 + 5 = 1
